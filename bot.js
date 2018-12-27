@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-client.user.setGame(' Mal , Safe ','https://www.twitch.tv/sytra_ayman');
+client.user.setGame(' Protection ','https://www.twitch.tv/quastyle11');
   console.log(`Logged in as ${client.user.tag}!`);
   });
   /*جميع الحقوق محفوظهه لريبل ولسيرفر كودز
@@ -114,6 +114,6 @@ if(c) return c.send(`:no_entry: | Banned ${member} , Reason: \`AntiBots - Protec
 }
 });
 
-//ِ. Àymmaann ~ $#9813
+//ِ. 
 
 client.login(process.env.BOT_TOKEN);
